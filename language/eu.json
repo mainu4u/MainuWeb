@@ -1,0 +1,57 @@
+{
+  "titulo": "MainU",
+  "subtitulo": "Kafetegia, zure eskuetan",
+
+  "proyecto": "Proiektua",
+  "movil": "Zure mugikorrean",
+  "version-web": "Web bertsioa",
+  "lang": "Ver en castellano",
+
+  "proyecto-title": "Hauxe da MainU",
+  "abierto": "Irekia",
+  "abierto-desc": "Aske zara berrikuntzak egiteko, sortzeko, gauzak aldatzeko. MainU guztion artean egiten da.",
+  "cercano": "Hurbila",
+  "cercano-desc": "Bilboko Ingeniaritza Eskolan jaiotako proiektua, bere kafetegiarentzat.",
+  "social": "Soziala",
+  "social-desc": "Komunitatean oinarritua, erabiltzaileen iritzi eta argazkien bitartez.",
+
+  "android-title": "Android",
+  "android-desc": "Laster, Android-erako bertsio ofiziala izango duzu eskuragarri. Bitartean, aplikazioa frogatu nahi al duzu?",
+
+  "apple-title": "iOS",
+  "apple-desc": "Oraindik ez dugu ezer prestatuta sistema honentzat, animatzen al zara?",
+
+  "contactanos": "Kontaktatu gaitzazu",
+
+  "web-title": "Web-aplikazioa erabili",
+  "web-desc": "MainU-ren hainbat funtzio eskuragarri dituzu: eguneko platerrak, bokaten zerrenda...",
+
+  "pruebalo": "Laster",
+
+  "about": "Nortzuk gara",
+  "about-desc": "MainU telekomunikazio ingeniari talde batek sortutako proiektua da, Bilboko Ingeniaritza Eskolan ikasi -eta ikasten jarraitzen- duena. Proiektu hau informazio eta komunikazio teknologiak gizartera eramateko ilusioarekin hasi zen eta, nahi izanez gero, gurera batu zaitezke.",
+
+  "main-link": "Hasiera orria",
+  "rgpd-link": "Datuen babesa",
+
+  "about-location": "Non gaude",
+  "about-address": "Helbidea",
+  "about-address-desc":"Ingeniero Torres Quevedo Plaza, 1 &bull; 48013 Bilbao",
+  "about-email": "Posta elektronikoa",
+
+  "html5up-reference": "Webgunearen diseinua <a href=\"https://html5up.net\">HTML5 UP</a>-ren eskutik.",
+
+  "contact-title": "Harremanetarako",
+  "contact-desc": "Zure galderak eta iradokizunak bidali, parte hartu MainU-ren proiektuan!",
+
+  "rgpd-title": "Datuen babesa",
+
+  "imprescindible-title": "Soilik nahitaezkoa",
+  "imprescindible-desc": "MainU-n soilik behar ditugun datuak erabiltzen ditugu, eta soilik behar ditugunean. Horrela, MainU-ren aplikazioa erabili dezakezu eta eskaintzen dugun guztia ikusi zure datuak eman gabe<sup>1</sup>. Beste funtzioren bat erabili nahi baduzu, hala nola, argazkiak edota iruzkinak partekatzea, Google kontua erabili beharko duzu sesioa hasteko. Bilduko ditugun datuak hauek dira: Google-en IDa, zure e-maila, zure izen-abizenak eta zure Google-eko profileko argazkia.<sup>2</sup>",
+
+  "tus-datos-title": "Zure datuak zureak dira",
+  "tus-datos-desc": "Beharrezkoa da jakitea, kontrakoa esaten ez baduzu, zure datuak gure datu-basean jarraituko dutela nahiz eta aplikazioa itxi eta ez erabili. Zuk igotako argazki edo iruzkinek zure izena daramate, eta erlazio hau ez da eteten saioa ixterakoan. Zure datuak ezabatu nahi badituzu, posta elektronikoa bidali beharko duzu <a href=\"mailto:dev@mainu.eus\">dev@mainu.eus</a> helbidera, <i>Ezeztapen eskubidea</i> izenburuarekin.",
+
+  "rgpd-foot-1": "Google-ek, Google Play Services, Firebase edota aplikazioen garapen eta banaketarako beste edozein zerbitzu baten bitartez, aplikazioaren erabilerari buruzko datu anonimoak bildu ditzake. Datu hauen babesa eta tratamendua Google LLC-ren ardura da.",
+  "rgpd-foot-2": "Zure Google-eko IDa eta helbide elektronikoa ez dira inoiz publikoak izango."
+}

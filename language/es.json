@@ -1,0 +1,57 @@
+{
+  "titulo": "MainU",
+  "subtitulo": "La cafetería, en tus manos",
+
+  "proyecto": "El proyecto",
+  "movil": "En tu móvil",
+  "version-web": "En la web",
+  "lang": "Euskaraz irakurri",
+
+  "proyecto-title": "Esto es MainU",
+  "abierto": "Abierto",
+  "abierto-desc": "Innova, crea, modifica. Eres libre, MainU se hace entre todos.",
+  "cercano": "Cercano",
+  "cercano-desc": "Nacido en la Escuela de Ingeniería de Bilbao para su propia cafetería.",
+  "social": "Social",
+  "social-desc": "Basado en la comunidad, a través de opiniones y fotos de otros usuarios.",
+
+  "android-title": "Android",
+  "android-desc": "Próximamente, una versión oficial de la aplicación para Android. Mientras tanto, ¿tienes ganas de probar nuestra aplicación?",
+
+  "apple-title": "iOS",
+  "apple-desc": "Aún no tenemos nada preparado para iOS, ¿te animas a colaborar?",
+
+  "contactanos": "Contáctanos",
+
+  "web-title": "Pruébalo desde la web",
+  "web-desc": "Prueba algunas opciones de MainU desde la web: qué menú hay, el listado de bocadillos...",
+
+  "pruebalo": "Próximamente",
+
+  "about": "Quiénes somos",
+  "about-desc": "En MainU somos un grupo de ingenieros e ingenieras de telecomunicaciones, que hemos estudiado -y estudiamos- en la Escuela de Ingeniería de Bilbao. Este proyecto nació como la ilusión de llevar las TIC a la sociedad más cercana. Si quieres, tú también puedes unirte.",
+
+  "main-link": "Principal",
+  "rgpd-link": "Protección de datos",
+
+  "about-location": "Dónde estamos",
+  "about-address": "Dirección",
+  "about-address-desc":"Plaza Ingeniero Torres Quevedo, 1 &bull; 48013 Bilbao",
+  "about-email": "E-mail",
+
+  "html5up-reference": "Diseño web de la mano de <a href=\"https://html5up.net\">HTML5 UP</a>.",
+
+  "contact-title": "Formulario de contacto",
+  "contact-desc": "Atendemos tus dudas y sugerencias, ¡participa en MainU!",
+
+  "rgpd-title": "Protección de datos",
+
+  "imprescindible-title": "Solo lo imprescindible",
+  "imprescindible-desc": "En MainU solo almacenamos los datos que necesitamos y cuando los necesitamos. Esto hace que puedas acceder a la aplicación de MainU y visualizar la mayor parte del contenido sin necesidad de que almacenemos ningún tipo de dato<sup>1</sup>. En caso de querer acceder a otras funcionalidades, como el envío de comentarios o fotos, será necesario que inicies sesión utilizando tu cuenta de Google. Los datos que se almacenarán de forma segura en la base de datos de MainU serán tu ID de Google, tu e-mail, tu nombre y la URL de tu fotografía de perfil.",
+
+  "tus-datos-title": "Tus datos son tuyos",
+  "tus-datos-desc": "Es necesario que sepas que, aunque cierres sesión en la aplicación de MainU y no vuelvas a entrar nunca más, tus datos seguirán estando almacenados, a no ser que nos transmitas tu voluntad de eliminarlos. Esto se debe a que has podido realizar valoraciones o subir fotografías asociadas a tu cuenta, y esta relación no se elimina aunque cierres la sesión. En caso de que desees eliminar tus datos de nuestra aplicación, puedes hacerlo enviando un mail a <a href=\"mailto:dev@mainu.eus\">dev@mainu.eus</a>, con el asunto <i>Derecho de cancelación</i>.",
+
+  "rgpd-foot-1": "Google, a través de Google Play Services, Firebase o cualquier otro servicio utilizado para el desarrollo y distribución de aplicaciones, puede estar almacenando datos anónimos sobre utilización de la aplicación. La responsabilidad sobre el tratamiento de estos datos corresponde a Google LLC.",
+  "rgpd-foot-2": "Tu ID de Google y tu correo electrónico nunca se harán públicos al resto de usuarios."
+}
