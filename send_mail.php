@@ -9,9 +9,9 @@ $webmaster_email = "dev@mainu.eus";
 This bit sets the URLs of the supporting pages.
 If you change the names of any of the pages, you will need to change the values here.
 */
-$feedback_page = "feedback_form.html";
-$error_page = "error_message.html";
-$thankyou_page = "thank_you.html";
+$feedback_page = "contact.html";
+$error_page = "contact_error.html";
+$thankyou_page = "contact_success.html";
 
 /*
 This next bit loads the form field data into variables.
@@ -21,9 +21,9 @@ $email_address = $_REQUEST['email_address'] ;
 $comments = $_REQUEST['comments'] ;
 $first_name = $_REQUEST['first_name'] ;
 $msg = 
-"First Name: " . $first_name . "\r\n" . 
-"Email: " . $email_address . "\r\n" . 
-"Comments: " . $comments ;
+"Nombre: " . $first_name . "\r\n" .
+"E-mail: " . $email_address . "\r\n" .
+"Mensaje: " . $comments ;
 
 /*
 The following function checks for email injection.
@@ -58,7 +58,7 @@ elseif (empty($first_name) || empty($email_address)) {
 header( "Location: $error_page" );
 }
 
-/* 
+/*
 If email injection is detected, redirect to the error page.
 If you add a form field, you should add it here.
 */
@@ -68,8 +68,10 @@ header( "Location: $error_page" );
 
 // If we passed all previous tests, send the email then redirect to the thank you page.
 else {
+    $from = "noreply@mainu.eus";
+    $headers = "From: $from";
 
-	mail( "$webmaster_email", "Feedback Form Results", $msg );
+	mail( $webmaster_email, "Mensaje a través del formulario", $msg, $headers );
 
 	header( "Location: $thankyou_page" );
 }
