@@ -1,50 +1,42 @@
 <!DOCTYPE HTML>
 <html>
-<script src="assets/js/translate.js"></script>
-<script>
-    var currentLng = 'es';
-    var translate = new Translate();
-    var attributeName = 'data-tag';
-
-    function load() {
-        translate.init(attributeName, currentLng);
-        translate.process();
-    }
-
-    function switchLang() {
-        if (currentLng === 'es') {
-            currentLng = 'eu';
-        } else {
-            currentLng = 'es';
-        }
-        translate.init(attributeName, currentLng);
-        translate.process();
-    }
-</script>
 <head>
-    <title>MainU - Protección de datos</title>
+    <title>MainU</title>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
     <link rel="stylesheet" href="assets/css/main.css"/>
+    <link rel="shortcut icon" type="image/png" href="/favicon.png"/>
     <noscript>
         <link rel="stylesheet" href="assets/css/noscript.css"/>
     </noscript>
+    <script src="assets/js/translate.js"></script>
+    <script>
+        var currentLng = 'es';
+        var translate = new Translate();
+        var attributeName = 'data-tag';
+
+        function load() {
+            translate.init(attributeName, currentLng);
+            translate.process();
+        }
+
+        function switchLang() {
+            if (currentLng === 'es') {
+                currentLng = 'eu';
+            } else {
+                currentLng = 'es';
+            }
+            translate.init(attributeName, currentLng);
+            translate.process();
+        }
+    </script>
 </head>
 <body class="is-preload" onload="load()">
-
-<!-- Wrapper -->
 <div id="wrapper">
-
-    <!-- Header -->
     <header id="header">
         <h1><label data-tag="rgpd-title"></label></h1>
     </header>
-
-    <!-- Main -->
     <div id="main">
-
-        <!-- Content -->
-
         <section id="content" class="main">
             <div class="col-12">
                 <ul class="actions">
@@ -68,8 +60,6 @@
                 </small>
             </p>
         </section>
-
-        <!-- Footer -->
         <footer id="footer">
             <section>
                 <h2><label data-tag="about"></label></h2>
@@ -89,7 +79,7 @@
                     <dt><label data-tag="about-address"></label></dt>
                     <dd><label data-tag="about-address-desc"></label></dd>
                     <dt><label data-tag="about-email"></label></dt>
-                    <dd><a href="#">dev@mainu.eus</a></dd>
+                    <dd><a href="mailto:dev@mainu.eus">dev@mainu.eus</a></dd>
                 </dl>
                 <ul class="icons">
                     <li><a href="https://github.com/mainu4u" class="icon fa-github"><span
@@ -100,17 +90,14 @@
             <p class="copyright"><a onclick="switchLang()"><label style="color:#ea2817"
                                                                   data-tag="lang"></label></a></p>
         </footer>
-
     </div>
-
-    <!-- Scripts -->
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/jquery.scrollex.min.js"></script>
-    <script src="assets/js/jquery.scrolly.min.js"></script>
-    <script src="assets/js/browser.min.js"></script>
-    <script src="assets/js/breakpoints.min.js"></script>
-    <script src="assets/js/util.js"></script>
-    <script src="assets/js/main.js"></script>
-
+</div>
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/jquery.scrollex.min.js"></script>
+<script src="assets/js/jquery.scrolly.min.js"></script>
+<script src="assets/js/browser.min.js"></script>
+<script src="assets/js/breakpoints.min.js"></script>
+<script src="assets/js/util.js"></script>
+<script src="assets/js/main.js"></script>
 </body>
 </html>

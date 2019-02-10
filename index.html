@@ -1,26 +1,5 @@
 <!DOCTYPE HTML>
 <html>
-<script src="assets/js/translate.js"></script>
-<script>
-    var currentLng = 'es';
-    var translate = new Translate();
-    var attributeName = 'data-tag';
-
-    function load() {
-        translate.init(attributeName, currentLng);
-        translate.process();
-    }
-
-    function switchLang() {
-        if (currentLng === 'es') {
-            currentLng = 'eu';
-        } else {
-            currentLng = 'es';
-        }
-        translate.init(attributeName, currentLng);
-        translate.process();
-    }
-</script>
 <head>
     <title>MainU</title>
     <meta charset="utf-8"/>
@@ -30,17 +9,35 @@
     <noscript>
         <link rel="stylesheet" href="assets/css/noscript.css"/>
     </noscript>
+    <script src="assets/js/translate.js"></script>
+    <script>
+        var currentLng = 'es';
+        var translate = new Translate();
+        var attributeName = 'data-tag';
+
+        function load() {
+            translate.init(attributeName, currentLng);
+            translate.process();
+        }
+
+        function switchLang() {
+            if (currentLng === 'es') {
+                currentLng = 'eu';
+            } else {
+                currentLng = 'es';
+            }
+            translate.init(attributeName, currentLng);
+            translate.process();
+        }
+    </script>
 </head>
 <body class="is-preload" onload="load()">
-<!-- Wrapper -->
 <div id="wrapper">
-    <!-- Header -->
     <header id="header" class="alt">
         <span class="logo"><img src="images/logo.png" alt=""/></span>
         <h1><label data-tag="titulo"></label></h1>
         <p><label data-tag="subtitulo"></label></p>
     </header>
-    <!-- Nav -->
     <nav id="nav">
         <ul>
             <li><a href="#intro"><label data-tag="proyecto"></label></a></li>
@@ -49,9 +46,7 @@
             <li><a onclick="switchLang()"><label style="color:#ea2817" data-tag="lang"></label></a></li>
         </ul>
     </nav>
-    <!-- Main -->
     <div id="main">
-        <!-- El proyecto -->
         <section id="intro" class="main special">
             <header class="major">
                 <h2><label data-tag="proyecto-title"></label></h2>
@@ -74,7 +69,6 @@
                 </li>
             </ul>
         </section>
-        <!-- Móvil -->
         <section id="movil" class="main special">
             <ul class="features">
                 <li>
@@ -94,7 +88,6 @@
                 </ul>
             </footer>
         </section>
-        <!-- Web -->
         <section id="web" class="main special">
             <ul class="features">
                 <li>
@@ -109,16 +102,18 @@
                 </ul>
             </footer>
         </section>
-        <!-- Footer -->
         <footer id="footer">
             <section>
                 <h2><label data-tag="about"></label></h2>
                 <p><label data-tag="about-desc"></label></p>
-            <ul class="actions">
-                <li><a href="index.html"><label data-tag="main-link"></label></a></li><br/>
-                <li><a href="contact.html"><label data-tag="contactanos"></label></a></li><br/>
-                <li><a href="rgpd.html"><label data-tag="rgpd-link"></label></a></li><br/>
-            </ul>
+                <ul class="actions">
+                    <li><a href="index.html"><label data-tag="main-link"></label></a></li>
+                    <br/>
+                    <li><a href="contact.html"><label data-tag="contactanos"></label></a></li>
+                    <br/>
+                    <li><a href="rgpd.html"><label data-tag="rgpd-link"></label></a></li>
+                    <br/>
+                </ul>
             </section>
             <section>
                 <h2><label data-tag="about-location"></label></h2>
@@ -138,7 +133,7 @@
                                                                   data-tag="lang"></label></a></p>
         </footer>
     </div>
-    <!-- Scripts -->
+</div>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/jquery.scrollex.min.js"></script>
     <script src="assets/js/jquery.scrolly.min.js"></script>
