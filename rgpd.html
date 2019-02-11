@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html>
+<html lang="es">
 <head>
     <title>MainU</title>
     <meta charset="utf-8"/>
@@ -11,9 +11,9 @@
     </noscript>
     <script src="assets/js/translate.js"></script>
     <script>
-        var currentLng = 'es';
-        var translate = new Translate();
-        var attributeName = 'data-tag';
+        const translate = new Translate();
+        const attributeName = 'data-tag';
+        let currentLng = 'es';
 
         function load() {
             translate.init(attributeName, currentLng);
@@ -66,11 +66,8 @@
                 <p><label data-tag="about-desc"></label></p>
                 <ul class="actions">
                     <li><a href="index.html"><label data-tag="main-link"></label></a></li>
-                    <br/>
                     <li><a href="contact.html"><label data-tag="contactanos"></label></a></li>
-                    <br/>
                     <li><a href="rgpd.html"><label data-tag="rgpd-link"></label></a></li>
-                    <br/>
                 </ul>
             </section>
             <section>
